@@ -298,3 +298,199 @@ Latest News Section Start
 .footer-copyright{
     font-size:18px ;
 }
+
+/* -----------------
+          Media Queries For Responsiveness Start
+          ----------------- */
+
+/* mobile mode resposnive */
+
+@media (max-width:688px) {
+    
+    .full-header{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    .header-details{
+        margin-bottom: 10%;
+    }
+
+    .header-details h1{
+        font-size: 40px;
+        margin-top: -15%;
+        
+    }
+
+    .header-image{
+       
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .full-header .header-image img{
+        width: 329px;
+        height: 259.17px;
+    }
+
+    .players{
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+    }
+    
+    .full-highlights{
+        width: 50%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .highlights-details{
+        width: 329px;
+        height: 299px;
+    }
+
+    .highlights-title{
+        font-size: 25px;
+        margin-top: -20%;
+        
+    }
+
+    .highlights-image{
+        margin-top: 25%;
+    }
+
+    .full-highlights .highlights-image img{
+        width: 328px;
+        height: 248px;
+      
+    }
+
+    .marchent-title{
+        width: 100%;
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .marchent-catagories{
+        grid-template-columns: repeat(1,1fr);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news-info{
+        width: 100%;
+        text-align: center;
+       
+    }
+
+    .news-info h1{
+        font-size: 28px;
+    }
+
+    .news-subscribe{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news-subscribe input{
+        height: 40px;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .total-footer{
+        width: 100%;
+    }
+
+    .footer-image img{
+        width: 350px;
+        height: 100px;
+    }
+    
+    
+}
+/* Tablet Mode Responsive */
+
+@media  (min-width:689px) and (max-width:1024px)  {
+    .full-header{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    .header-details{
+        margin-bottom: 10%;
+    }
+
+    .header-details h1{
+        font-size: 50px;
+        margin-top: -20%;
+        
+    }
+
+    .header-image{
+       
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .full-header .header-image img{
+        width: 429px;
+        height: 359.17px;
+    }
+
+    .players{
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+       
+    }
+
+    .full-highlights{
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .highlights-details{
+        width: 429px;
+        height: 399px;
+    }
+
+    .highlights-title{
+        font-size: 30px; 
+    }
+
+    .highlights-image{
+        margin-top: 5%;
+        margin-left: -5%;
+    }
+
+    .full-highlights .highlights-image img{
+        width: 428px;
+        height: 348px;
+      
+    }
+
+    .marchent-title{
+        width: 100%;
+        text-align: center;
+        font-size: 38px;
+    }
+
+    .marchent-catagories{
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        
+    }
+    
+    .marchent-catagory{
+        margin: 0 auto;
+    }
+    
+}
